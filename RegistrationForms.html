@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration forms</title>
+</head>
+<body>
+    <img src="./Friends.PNG" width="270" height="200">
+    <h2 style="text-align: center;">Friendship Zone</h2><br><br>
+    <h3>Add your details to register</h3>
+    <form action="">
+        <div>
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" name="myName" id="name" placeholder="Enter your name" required min="3">
+        </div>
+        <br>
+
+        <div>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="myemail" id="email">
+            </div>
+            <br>
+
+            <div>
+                <label for="age"><strong>Age:</strong></label>
+                <input type="number" name="myage" id="age" min="18">
+                </div>
+                <br>
+
+                <div>
+                    <label for="date"><strong>Birth Day:</strong></label>
+                    <input type="date" name="mybirthdate" id="date">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="gender"><strong>Gender:</strong></label>
+                    <input type="radio" name="mygender" id="gender">M 
+                    <input type="radio" name="mygender" id="gender">F
+                        </div>
+                        <br>
+
+                        <div>
+                            <label for="about"><strong>About:</strong></label>
+                            <textarea name="myText" id="about" cols="50" rows="5"></textarea>
+                        </div>
+                        <br>
+
+                        <div>
+                            <label for="phone"><strong>Phone:</strong></label>
+                            <input type="tel" name="mynum" id="phone">
+                        </div><br>
+
+                        <div>
+                            <label for="interest"><strong>Interested in:</strong></label>
+                            <input type="radio" name="myinterest" id="interest">Friendship
+                            <input type="radio" name="myinterest" id="interest">Dating
+                            <label for="file"><strong>Attachment:</strong></label>
+                            <input type="file" name="myfile">
+                        </div><br>
+                
+                        <div>
+                            <input type="submit" value="Register">
+                            <input type="submit" value="Register as admin">
+                        </div>
+                        
+    </form>
+</body>
+</html>
